@@ -1,12 +1,12 @@
 // Variables
-var name = "Sammy McGee";
-var email = "jeffbatt@gmail.com"
+var name = "Zack McGee";
+var email = "Zack098@gmail.com"
 
 // Page Load Function
 function pageLoaded(){
 	// Connecting to LRS
 	var conf = {
-	  "endpoint" : "https://cloud.scorm.com/tc/CJ0NK8AJKV/sandbox/",
+	  "endpoint" : "https://cloud.scorm.com/lrs/ZK5IC0NDVA/sandbox/",
 	  "auth" : "Basic " + toBase64('jeffbatt@gmail.com:DevLearn17'),
 	};
 	ADL.XAPIWrapper.changeConfig(conf);
@@ -16,7 +16,7 @@ function pageLoaded(){
 function sendStatement(){
 	var statement = {  
 	    "actor": {  
-	        "mbox": "mailto:"+email,  
+	        "mbox": "mailto:"+ email,  
 	        "name": name,  
 	        "objectType": "Agent"  
 	    },  
