@@ -1,5 +1,5 @@
 //Variables
-var name = "James Wentworth"
+var name = "James Wentworth";
 var email = "table1235@gmail.com"
 
 
@@ -29,7 +29,7 @@ function sendOverStatement(){
 
 	}
 	alert("Statement has been sent over.")
-	ADL.XAPIWRAPPER.sendStatement(statement)
+	ADL.XAPIWRAPPER.sendStatement(statement);
 }
 
 //On Blur Events
