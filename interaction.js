@@ -4,12 +4,7 @@ var email = "Zack098@gmail.com"
 
 // Page Load Function
 function pageLoaded(){
-	// Connecting to LRS
-	var conf = {
-	  "endpoint" : "https://cloud.scorm.com/lrs/ZK5IC0NDVA/sandbox/",
-	  "auth" : "Basic " + toBase64('jeffbatt@gmail.com:DevLearn17'),
-	};
-	ADL.XAPIWrapper.changeConfig(conf);
+	
 }
 
 // Button click
